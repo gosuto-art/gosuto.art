@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Arial Bold Italic";
+    src: url("/ArialCEBoldItalic.woff");
+}
+
+@font-face {
+    font-family: "Cloister Black";
+    src: url("/CloisterBlack.ttf");
+}
+
+@font-face {
+    font-family: "Glow Night";
+    src: url("/GLOW\ NIGHT.otf");
+}
+
+@font-face {
+    font-family: "Alagard";
+    src: url("/alagard.ttf");
+}
+
+.home-body {
+    color: #8a2be2;
+    background-color: #ffe4b5;
+}
+
+h1 {
+    margin: 0;
+}
+
+.main-content {
+    width: 800px;
+    margin-left: 20px;
+}
+
+.sub-logo-text {
+    font-family: "Alagard";
+    font-size: 3em;
+}
+
+.shadow-outline {
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 4px rgba(0, 0, 0, 0.45);
+    color: white;
+}
+
+.hex {
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.second-logo {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.gosuto {
+    font-family: 'Alagard';
+    font-size: 4em;
+}
+
+.art {
+    font-family: 'Cloister Black';
+    font-size: 3em;
+}
+
+.society {
+    font-family: 'Glow Night';
+    text-transform: uppercase;
+    font-size: 7em;
+    line-height: 149px;
+}
+
+.links {
+    font-family: 'Glow Night';
+    font-size: 3em;
+}
+
+.links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links a {
+    color: #8a2be2;
+}
+
+.main-text {
+    width: 60%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+}
+
+.blobthing {
+    width: 350px;
+    height: 350px;
+    z-index: -1;
+    position: absolute;
+    left: -40px;
+    top: -80px;
+}
+
+.heart {
+    width: 400px;
+    height: 400px;
+    z-index: -1;
+    position: absolute;
+    right: -50px;
+    top: 170px;
+}
+
+.ghost {
+    width: auto;
+    height: 500px;
+    position: absolute;
+    top: 550px;
+    left: 40%;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 805px) {
+    .main-content {
+        width: 90%;
+    }
+
+    .ghost {
+        top: 600px;
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .gosuto {
+        font-size: 3.5em;
+    }
+
+    .art {
+        font-size: 2.5em;
+    }
+
+    .society {
+        font-size: 6em;
+    }
+
+    .sub-logo-text {
+        font-size: 3em;
+    }
+
+    .heart {
+        top: 300px;
+    }
+
+    .ghost {
+        top: 800px;
+    }
+
+}
+
+@media only screen and (max-width: 615px) {
+    .gosuto {
+        font-size: 3em;
+    }
+
+    .art {
+        font-size: 2em;
+    }
+
+    .society {
+        font-size: 5em;
+        line-height: 115px;
+    }
+
+    .heart {
+        width: 300px;
+        height: 300px;
+        top: 350px;
+    }
+
+    .ghost {
+        right: 0;
+        width: 550px;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    .gosuto {
+        font-size: 2.5em;
+    }
+
+    .art {
+        font-size: 1.5em;
+    }
+
+    .society {
+        font-size: 4em;
+        line-height: 100px;
+    }
+
+    .sub-logo-text,
+    .links {
+        font-size: 2.5em;
+    }
+
+    .blobthing {
+        width: 250px;
+        height: 250px;
+    }
+
+    @media only screen and (max-width: 415px) {
+        .main-content {
+            margin: auto;
+            width: 100%;
+        }
+
+        .main-logo {
+            text-align: center;
+        }
+
+        .sub-logo-text,
+        .links {
+            font-size: 2em;
+        }
+
+        .ghost {
+            width: 400px;
+        }
+
+    }
+
+    @media only screen and (max-width: 375px) {
+        .main-logo {
+            text-align: center;
+        }
+
+        .gosuto {
+            font-size: 2em;
+        }
+
+        .art {
+            font-size: 1.5em;
+        }
+
+        .society {
+            font-size: 3.5em;
+            line-height: 80px;
+        }
+
+        .sub-logo-text,
+        .links {
+            font-size: 1.8em;
+            margin: auto;
+        }
+    }
+}
