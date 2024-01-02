@@ -18,9 +18,26 @@
   src: url("/alagard.ttf");
 }
 
+html,
+body {
+  height: 99%;
+}
+
 .home-body {
   color: #8434ce;
   background-color: #ffe4b5;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+a,
+a:visited {
+  color: #8434ce;
 }
 
 h1 {
@@ -34,7 +51,7 @@ h1 {
 
 .sub-logo-text {
   font-family: "Alagard";
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .shadow-outline {
@@ -101,7 +118,7 @@ h1 {
   width: 350px;
   height: 350px;
   z-index: -1;
-  position: absolute;
+  position: fixed;
   left: -40px;
   top: -80px;
 }
@@ -209,6 +226,7 @@ h1 {
   .blobthing {
     width: 250px;
     height: 250px;
+    position: fixed;
   }
 
   @media only screen and (max-width: 415px) {
